@@ -6,8 +6,8 @@ import os
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--work_dir", type=str, default='..', help='The working directory of the project. Default is ..')
-    parser.add_argument("--name", type=str, default='all_problems', help='The name of the file to save the fetched problems info. Default is all_problems')
+    parser.add_argument("--work_dir", type=str, default='../..', help='The working directory of the project. Default is ..')
+    parser.add_argument("--name", type=str, default='all_problem', help='The name of the file to save the fetched problems info. Default is all_problems')
     args = parser.parse_args()
     return args
 
