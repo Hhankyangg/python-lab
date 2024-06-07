@@ -6,7 +6,7 @@ from fun_leetcode.Problem import Problem
 
 
 def build_problem_list(json_file):
-    with open('json_file', 'r') as file:
+    with open(json_file, 'r') as file:
         data = json.load(file)
         
     problem_list = [None]
